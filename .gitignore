@@ -1,0 +1,21 @@
+# --- Secrets / credentials: NEVER commit these ---
+resources/
+*.pem
+*.key
+*.ppk
+*credential*
+*Credential*
+*secret*
+*Secret*
+AWS_Information*
+DockerhubLogin*
+.env
+.env.*
+
+# --- Local-only working folders ---
+forupload/
+screenshots/
+
+# --- OS / editor noise ---
+Thumbs.db
+.DS_Store

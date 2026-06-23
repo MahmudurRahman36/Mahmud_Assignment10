@@ -148,9 +148,10 @@ docker compose up -d --build  # rebuild the app image and restart
 
 | Item | Value |
 |------|-------|
+| My Git repository | https://github.com/MahmudurRahman36/Mahmud_Assignment10 |
+| Source repository | https://github.com/roy35-909/Module-3-deployment |
 | DockerHub image | https://hub.docker.com/r/mrkolince/mahmud_assignment10 |
 | Pull command | `docker pull mrkolince/mahmud_assignment10:latest` |
-| Git repository | https://github.com/roy35-909/Module-3-deployment |
 | Files added | `Dockerfile`, `docker-compose.yml` |
 | App URL | http://localhost:8080 |
 | Exposed port | 8080 (host) → 5000 (container) |
